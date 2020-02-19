@@ -7,7 +7,7 @@ Con un numero finito di popolazione, suddividiamo gli individui in
 
 L'algoritmo discreto, simulato in python, funziona nel seguente modo :
 Sappiamo che resta costante I+S+R = N (numero di nodi del grafo)
-Scelgo un S a caso tra il registro e controllo i suoi contatti tramite una matrice di adiacenza,
+Seleziono un S a caso tra il registro e controllo i suoi contatti tramite una matrice di adiacenza,
 se 
 
 # S contatta un I allora ho due possibilita'   
