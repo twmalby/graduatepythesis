@@ -1,3 +1,5 @@
+
+
 # Tesi in Python + Equazioni Differenziali
 La tesi si basa sullo studio della diffusione dei rumors in un social network.
 Con un numero finito di popolazione, suddividiamo gli individui in 
@@ -23,3 +25,30 @@ Si potrebbero aggiungere le probabilita' e cambiare gli esiti per qunado S incon
 Mentre per la parte di equazioni differenziali, viene svolto uno studio sulle derivate prime
 che ci mostrano la crescita/decrescita degli I,S,R al tempo t.
 
+Link alla tesi : https://www.mediafire.com/file/36npa0nbyxwbnu5/TESINA-Matematica-AlbertoRagagnin-2014-2015%2528FinalVersion%2529.pdf/file  (evrything in italian)
+
+
+# Python thesis + Differential equations
+The thesis is based on the study of the spread of rumors in a social network.
+With a finite number of population, we divide individuals into
+# I - pristine
+# S - spreader (noise diffusers)
+# R - stifler (those who refuse to re-broadcast the rumor)
+
+The discrete algorithm, simulated in python, works in the following way:
+We know that I + S + R = N remains constant (number of nodes in the graph)
+Selected a case between the register and the control of its contacts through an adjacency matrix,
+SELF
+
+# S contacts an I ho I have two possibilities
+# 1. I converts to S with probability p (user choice) obtaining in the change of state (I, S, R) | - (I-1, S + 1, R)
+# 2. I converts to R with probability 1-p and we obtain that from (I, S, R) | - (I-1, S, R + 1)
+
+#S Contact an R it happens that S converts to R with the following result (I, S, R) | - (I, S-1, R + 1)
+#S Contact an S it happens that S converts to R with the following result (I, S, R) | - (I, S-2, R + 2)
+
+This is not a definitive model, it has been found in literature from literature.
+You can add probability and change the outcomes for qunado S meets an R or S.
+
+While for the part of differential equations, a study is carried out on the first derivatives
+that there is the growth / decrease of I, S, R at time t.
