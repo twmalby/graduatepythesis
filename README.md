@@ -27,7 +27,7 @@ che ci mostrano la crescita/decrescita degli I,S,R al tempo t.
 
 Link alla tesi : https://www.mediafire.com/file/36npa0nbyxwbnu5/TESINA-Matematica-AlbertoRagagnin-2014-2015%2528FinalVersion%2529.pdf/file  (evrything in italian)
 
-![image](twmalby/graduatepythesis/graph.png)
+![image](/graph.png)
 
 # Python thesis + Differential equations
 The thesis is based on the study of the spread of rumors in a social network.
